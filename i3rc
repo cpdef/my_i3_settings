@@ -1,0 +1,6 @@
+xbacklight -dec 100 -time 0
+feh --bg-scale ~/.i3/background2.jpg
+terminology -e exit
+systray &
+nm-applet &
+xbacklight -inc 100 -time 3000 -steps 70
